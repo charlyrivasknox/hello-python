@@ -3,6 +3,8 @@
 print("Hola Python")
 print('Hola Python')
 
+#vamos a imprimir el tipo
+print(type("Hola Python"))
 """
 Esto es un comentario en 
 varias lineas
