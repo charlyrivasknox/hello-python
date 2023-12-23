@@ -25,8 +25,21 @@ print(len(my_str_variable)) #logitud de cadenas
 name, surname, alias, edad = "Carlos","Rivas","cknox", 41
 print("me llamo:",name,surname, "mi edad es:",edad,"y mi alias es:",alias)
 
-first_name=input('cuál es tu nombre? ')
+# Inputs
+'''
+name=input('cuál es tu nombre? ')
 age=input("cuántos años tienes? ")
-
-print(first_name)
+print(name)
 print(age)
+'''
+
+#cambiamos el tipo
+name=35
+age="Carlangas"
+print(name)
+print(age)
+
+# forzamos el tipo?
+address: str = "mi direccion"
+address=32
+print(type(address))
